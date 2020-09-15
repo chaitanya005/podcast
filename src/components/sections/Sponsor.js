@@ -42,6 +42,17 @@ const Sponsor = () => {
                     />
                   </a>
                 </li>
+
+                <li>
+                  <a href="http://crio.do/" target="_blank">
+                    {" "}
+                    <img
+                      style={{ borderRadius: "10px" }}
+                      src="../img/core-img/crio.png"
+                      alt=""
+                    />
+                  </a>
+                </li>
               </ul>
             </div>
           </div>

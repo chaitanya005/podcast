@@ -32,7 +32,7 @@ import { reducer, initialState } from "./reducer/userReducer";
 
 import AdminMenu from "./components/screens/Admin";
 import AddAma from "./admin/AddAma";
-import Ama from "./components/sections/Amas/Base";
+// import Ama from "./components/sections/Amas/Base";
 
 export const UserContext = createContext();
 
@@ -57,9 +57,6 @@ const Routing = () => {
       </Route>
       <Route exact path="/create/ama">
         <AddAma />
-      </Route>
-      <Route exact path="/:routeName">
-        <Ama />
       </Route>
 
       {/*-----------------------------------------------------------*/}
